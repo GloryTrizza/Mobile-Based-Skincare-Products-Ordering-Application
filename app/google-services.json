@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "627364308450",
+    "project_id": "glowskincare-app-4fb37",
+    "storage_bucket": "glowskincare-app-4fb37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627364308450:android:4bd0a873e550b729e445bb",
+        "android_client_info": {
+          "package_name": "com.example.glowskincareapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627364308450-eiuiha0cki2r6f8n3umhpijqkllrdrs5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6YGRAEeyOHOPtcLlcmARFiz1S8lH0ffE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627364308450-eiuiha0cki2r6f8n3umhpijqkllrdrs5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

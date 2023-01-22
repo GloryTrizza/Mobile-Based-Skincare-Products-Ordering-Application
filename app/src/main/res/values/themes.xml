@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GlowSkinApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!--  Primary brand color.  -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">#F48FB1</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!--  Secondary brand color.  -->
+        <item name="colorSecondary">@color/purple_200</item>
+        <item name="colorSecondaryVariant">@color/purple_500</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!--  Status bar color.  -->
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
+
+    </style>
+    <style name="Theme.GlowSkinApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+    </style>
+    <style name="Theme.GlowSkinApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.GlowSkinApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

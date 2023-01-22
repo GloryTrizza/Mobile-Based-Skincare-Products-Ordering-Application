@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.glowskincareapp">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/logo"
+        android:label="GlowSkinCare"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:configChanges="orientation|screenSize"
+        android:theme="@style/Theme.GlowSkinApp">
+        <activity
+            android:name=".OrderList"
+            android:exported="false" />
+        <activity
+            android:name=".OrderRequests"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerWishlist"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentPage"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerCart"
+            android:exported="false" />
+        <activity
+            android:name=".Shipping"
+            android:exported="false" />
+        <activity
+            android:name=".ProductPage"
+            android:exported="false" />
+        <activity
+            android:name=".ProductListDisplay"
+            android:exported="false" />
+        <activity
+            android:name=".contactus"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".log_sign_options"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_Screen"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login_in_activity"
+            android:exported="false" />
+        <activity
+            android:name=".AddProduct"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".signupcustomer"
+            android:exported="false" />
+        <activity
+            android:name=".signupseller1"
+            android:exported="false" />
+        <activity
+            android:name=".signupseller2"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfilePage"
+            android:exported="false" />
+        <activity
+            android:name=".UserGuide"
+            android:exported="false" />
+    </application>
+
+</manifest>

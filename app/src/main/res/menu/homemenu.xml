@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/wishlistInHomepage"
+        android:icon="@drawable/ic_wishlist"
+        android:title="@string/wishlist"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/CartInHomepage"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="@string/cart"
+        android:visible="false"
+        app:showAsAction="always" />
+
+
+</menu>
